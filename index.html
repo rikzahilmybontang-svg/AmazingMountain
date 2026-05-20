@@ -5,40 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
-    rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <title>Home | Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>HOME Landing Page</title>
 </head>
-<body>
-    <!-- navigation -->
-     <section class="navigation">
-        <div class="container">
-            <div class="box-navigation">
-                <div class="box">
-                    <h1>Logo</h1>
-                </div>
-                <div class="box menu-navigation">
-                    <ul>
-                        <li><a href="#">Beranda</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Famous</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="box menu-bar">
-                    <i class="ri-menu-3-fill" style="color: white;"></i>
+<body id="home">
+     <header>
+     <!-- navigation -->
+         <section class="navigation">
+            <div class="container">
+            <div class="box-navigation animate_animated animate_fadeInDown">
+            <div class="box">
+            <h1>LOGO</h1>
+        </div>
+        <div class="box menu-navigation">
+            <ul>
+                <li>
+                    <a href="#home">Beranda</a>
+                </li>
+                <li>     
+                    <i class="ri-information-3-line"></i>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#famous">Famous</a>
+                </li>
+                <li>
+                    <i class="ri-image-3-line"></i>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <i class="ri-phone-3-line"></i>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="box menu-bar">
+            <i class="ri-menu-3-fill" style="color: white;"></i>
+                    </div>
                 </div>
             </div>
-        </div>    
-     </section>
-    </header>
-    <!-- navigation -->
-     <script src="./dist/js/script.js"></script>
-        
+        </section>
+        <!-- navigation -->
 
-        
+        <!-- hero -->
+         <section class="hero">
+            <h1 class="animate_animated animate_pulse">Amazing Mountain Yang Ada Di Seluruh Dunia</h1>
+         </section>
+          <!-- hero -->
+     </header>
+
+     <!-- about -->
+      <section class="about" id="about">
+        <div class="container">
+            <div class="box-about">
+                <div class="box" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Mountain</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio suscipit, voluptas, ducimus, libero at magni blanditis quis
+                        nam consequuntur facere possimus quas, cumque voluptatem temporibus, consequuntur ipsum ipsa
+                        quisquam, saepe?
+                    </p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="1.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- about -->
+
+
+      <!-- famous -->
+       <section class="famous" id="famous">
+        <div class="container">
+        <div class="box-famous">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                <img src="everest-famous.jpg" alt="" />
+                    <h1>Everest Mountain</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio suscipit, voluptas, ducimus, libero at magni.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                    <img src="fuji-famous.jpg" alt="" />
+                    <h1> Fuji Mountain</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio suscipit, voluptas, ducimus, libero at magni.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                    <img src="k2-famous.jpg" alt="" />
+                    <h1>K2 Mountain</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio suscipit, voluptas, ducimus, libero at magni.</p>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <!-- famous -->
+    
+      <!-- gallery -->
+       <section class="gallery" id="gallery">
+          <div class="container">
+             <div class="box-gallery">
+                <img src="1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100"/>
+                <img src="2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"/>
+                <img src="3.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500"/>
+                <img src="4.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700"/>
+                <img src="5.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900"/>
+                <img src="6.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100"/>
+             </div>
+          </div>
+       </section>
+       <!-- gallery -->
+
+       <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="box-contact">
+                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Contact</h1>
+                <form action= ""  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                    <table>
+                        <tr>
+                            <td><label for="nama">Nama</label></td>
+                            <td><input type="text" id="nama" name="nama" placeholder="Masukkan Nama" autocomplete="off" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="Masukkan Email" autocomplete="off" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pesan">Pesan</label></td>
+                            <td><input type="pesan" id="pesan" name="pesan" placeholder="Masukkan Pesan..." autocomplete="off"></textarea></td>                       
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2022 by Rikza Hilmy</p>
+    </footer>
+    <!-- footer -->
+    
+    
+    <script src="./dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
